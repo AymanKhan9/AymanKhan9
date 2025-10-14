@@ -20,11 +20,6 @@
 
 ---
 
-## Currently Learning  
- **Generative AI** |  **DevOps Pipelines & Cloud Deployments**
-
----
-
 ## Featured Projects  
 
 ### [BrainStrokeTumor-Detection](https://github.com/AymanKhan9/BrainStrokeTumor-Detection)
