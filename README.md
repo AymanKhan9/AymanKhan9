@@ -1,4 +1,42 @@
-# 👋 Hi there, I'm Ayman Khan  
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900" height="120" viewBox="0 0 900 120" preserveAspectRatio="xMinYMid meet">
+  <defs>
+    <!-- gradient for the text -->
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0" stop-color="#00C6FF"/>
+      <stop offset="1" stop-color="#0072FF"/>
+    </linearGradient>
+
+    <!-- mask that will reveal the text left-to-right -->
+    <mask id="revealMask">
+      <!-- start with width 0 and animate to full width -->
+      <rect x="0" y="0" width="0" height="120" fill="#fff">
+        <animate attributeName="width" from="0" to="900" begin="0s" dur="3s" fill="freeze" />
+      </rect>
+    </mask>
+  </defs>
+
+  <!-- optional background (transparent if you prefer) -->
+  <rect width="100%" height="100%" fill="transparent"/>
+
+  <!-- the animated text -->
+  <text x="40" y="74"
+        font-family="Segoe UI, Roboto, Arial, Helvetica, sans-serif"
+        font-weight="700"
+        font-size="44"
+        fill="url(#grad)"
+        mask="url(#revealMask)">
+    Hi there, I'm Ayman Khan
+  </text>
+
+  <!-- blinking cursor (positioned near the end of the text; adjust x if needed) -->
+  <rect x="560" y="22" width="6" height="50" rx="1" fill="#ffffff" opacity="0.9">
+    <!-- blink -->
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
 
 💡 **About Me**  
 - 🎓 A passionate **AI/ML student** exploring intelligent systems and open-source development  
@@ -46,6 +84,4 @@ A full-stack healthcare platform for monitoring and predicting medical condition
 ---
 
 ### 🔗 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayman-khan9)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AymanKhan9)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/)
+Enail:aymankhan.ak6@gmail.com
