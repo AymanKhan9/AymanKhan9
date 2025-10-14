@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi there 👋, I'm Ayman Khan  
 
-<!--
-**AymanKhan9/AymanKhan9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💡 **About Me**  
+- 🎓 Student passionate about AI/ML & open-source  
+- 🧠 Working on Bias Detection in NLP models  
+- 🛠️ Currently building: AlgoVisualizer, TAIL.ai  
+- 💬 Ask me about Machine Learning, Flask, and Git  
 
-Here are some ideas to get you started:
+🧰 **Languages & Tools**  
+![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📊 **GitHub Stats**  
+![Ayman's GitHub stats](https://github-readme-stats.vercel.app/api?username=AymanKhan9&show_icons=true&theme=github_dark)
+
+🌱 **Currently Learning:**  
+Generative AI | Docker | Flask APIs  
+
+🏆 **Featured Projects**  
+- 🚀 [TAIL.ai](https://github.com/AymanKhan9/TAIL.ai)  
+- 💻 [AlgoVisualizer](https://github.com/AymanKhan9/AlgoVisualizer)  
+- ⚙️ [MyCSES](https://github.com/AymanKhan9/MyCSES)
