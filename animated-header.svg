@@ -2,25 +2,34 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      width="900" height="120" viewBox="0 0 900 120" preserveAspectRatio="xMinYMid meet">
   <defs>
-    <!-- gradient for the text -->
+    <!-- gradient for text -->
     <linearGradient id="grad" x1="0" x2="1">
       <stop offset="0" stop-color="#00C6FF"/>
       <stop offset="1" stop-color="#0072FF"/>
     </linearGradient>
 
-    <!-- mask that will reveal the text left-to-right -->
+    <!-- animated gradient for cursor -->
+    <linearGradient id="cursorGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00C6FF">
+        <animate attributeName="stop-color" values="#00C6FF;#0072FF;#00C6FF" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0072FF">
+        <animate attributeName="stop-color" values="#0072FF;#00C6FF;#0072FF" dur="2s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- mask to reveal text -->
     <mask id="revealMask">
-      <!-- start with width 0 and animate to full width -->
-      <rect x="0" y="0" width="0" height="120" fill="#fff">
-        <animate attributeName="width" from="0" to="900" begin="0s" dur="3s" fill="freeze" />
+      <rect id="revealRect" x="0" y="0" width="0" height="120" fill="#fff">
+        <animate attributeName="width" from="0" to="595" dur="3s" fill="freeze" />
       </rect>
     </mask>
   </defs>
 
-  <!-- optional background (transparent if you prefer) -->
+  <!-- transparent background -->
   <rect width="100%" height="100%" fill="transparent"/>
 
-  <!-- the animated text -->
+  <!-- main text -->
   <text x="40" y="74"
         font-family="Segoe UI, Roboto, Arial, Helvetica, sans-serif"
         font-weight="700"
@@ -30,9 +39,11 @@
     Hi there, I'm Ayman Khan
   </text>
 
-  <!-- blinking cursor (positioned near the end of the text; adjust x if needed) -->
-  <rect x="560" y="22" width="6" height="50" rx="1" fill="#ffffff" opacity="0.9">
+  <!-- moving gradient cursor -->
+  <rect id="cursor" x="40" y="24" width="4" height="50" rx="1" fill="url(#cursorGrad)">
+    <!-- move cursor slightly less to close the gap -->
+    <animate attributeName="x" from="40" to="615" dur="3s" fill="freeze" />
     <!-- blink -->
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
   </rect>
 </svg>
