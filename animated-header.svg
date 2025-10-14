@@ -42,7 +42,7 @@
   <!-- moving gradient cursor -->
   <rect id="cursor" x="40" y="24" width="4" height="50" rx="1" fill="url(#cursorGrad)">
     <!-- move cursor slightly less to close the gap -->
-    <animate attributeName="x" from="40" to="615" dur="3s" fill="freeze" />
+    <animate attributeName="x" from="40" to="590" dur="3s" fill="freeze" />
     <!-- blink -->
     <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
   </rect>
