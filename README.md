@@ -29,16 +29,7 @@ AI-based system for detecting **brain strokes and tumors** using **CNN** and **T
 A **mobile collaboration platform** that connects students and communities across campuses.
 
 ### [PulseMD](https://github.com/AymanKhan9/pulseMD)
-A **full-stack healthcare platform** leveraging **AI** for real-time health monitoring and prediction.
-
----
-
-## GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AymanKhan9&show_icons=true&theme=github_dark" alt="Ayman's GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AymanKhan9&layout=compact&theme=github_dark" alt="Top Languages" height="165" />
-</p>
+A **full-stack healthcare platform** using **MERN** used to streamline the process of easy booking and scheduling of appointments.
 
 ---
 
